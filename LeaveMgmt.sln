@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMgmt.Web", "Web\LeaveMgmt.Web.csproj", "{418244EA-0C5F-4B0E-9923-3DB2D5CD5FB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveMgmt.Db", "Db\LeaveMgmt.Db.csproj", "{84341E35-3C01-4B15-9F2B-9E04B676FA3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{418244EA-0C5F-4B0E-9923-3DB2D5CD5FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{418244EA-0C5F-4B0E-9923-3DB2D5CD5FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{418244EA-0C5F-4B0E-9923-3DB2D5CD5FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84341E35-3C01-4B15-9F2B-9E04B676FA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84341E35-3C01-4B15-9F2B-9E04B676FA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84341E35-3C01-4B15-9F2B-9E04B676FA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84341E35-3C01-4B15-9F2B-9E04B676FA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
