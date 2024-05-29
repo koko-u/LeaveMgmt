@@ -1,4 +1,4 @@
-namespace LeaveMgmt.App.Models;
+namespace LeaveMgmt.Web.Models;
 
 public class ErrorViewModel
 {
