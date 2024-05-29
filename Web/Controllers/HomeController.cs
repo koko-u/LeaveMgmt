@@ -1,5 +1,5 @@
 using System.Diagnostics;
-using LeaveMgmt.Web.Models;
+using LeaveMgmt.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LeaveMgmt.Web.Controllers;
