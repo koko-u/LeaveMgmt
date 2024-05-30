@@ -8,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Database Connection
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+                       throw new InvalidOperationException("ConnectionString 'DefaultConnection' is not found.");
 builder.Services.AddDbContext<LeaveMgmtDbContext>(opt => { opt.UseSqlServer(connectionString); });
 
 // Capture Database related exception for DeveloperExceptionPage
